@@ -1,7 +1,10 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: "/vite-test/",
   server: {
-    port: 5000
+    host: "localhost",
+    port: 5000,
+    strictPort: true
   }
 });
