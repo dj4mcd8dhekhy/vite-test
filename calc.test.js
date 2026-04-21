@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { AddNums, SubNums, MulNums, DivNums } from "./qcalc.js";
+import { AddNums, SubNums, MulNums, DivNums } from "./calc.js";
 
 describe("Addition test", () => {
   it("should be true", () => {
