@@ -7,9 +7,21 @@ describe("Addition test", () => {
   });
 });
 
+describe("Addition test 2", () => {
+  it("should be true", () => {
+    expect(AddNums(2, 1)).toBe(3);
+  });
+});
+
 describe("Subtraction test", () => {
   it("should be true", () => {
     expect(SubNums(9, 3)).toBe(6);
+  });
+});
+
+describe("Subtraction test 2", () => {
+  it("should be true", () => {
+    expect(SubNums(3, 9)).toBe(-6);
   });
 });
 
@@ -19,8 +31,20 @@ describe("Multiplication test", () => {
   });
 });
 
+describe("Multiplication test 2", () => {
+  it("should be true", () => {
+    expect(MulNums(7, 4)).toBe(28);
+  });
+});
+
 describe("Division test", () => {
   it("should be true", () => {
     expect(DivNums(10, 2)).toBe(5);
+  });
+});
+
+describe("Division test 2", () => {
+  it("should be true", () => {
+    expect(DivNums(10, 5)).toBe(2);
   });
 });
