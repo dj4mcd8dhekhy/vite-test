@@ -6,5 +6,9 @@ export default defineConfig({
     host: "localhost",
     port: 5000,
     strictPort: true
+  },
+  test: {
+    globals: true,
+    include: ["*.test.js"]
   }
 });
